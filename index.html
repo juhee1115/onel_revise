@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="오늘수거 - 쓰레기는 문 앞에, 분리수거는 오늘수거가 할게요"
+    />
+    <title>오늘수거 | 문 앞 분리수거 서비스</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- seo 엔진 최적화 -->
+    <!-- 웹페이지의 설명을 정의 -->
+    <meta name="description" content="오늘수거 | 문 앞 분리수거 서비스" />
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
+    <meta name="keywords" content="오늘수거 | 문 앞 분리수거 서비스" />
+    <!-- 웹페이지의 저자를 정의  -->
+    <meta name="author" content="오늘수거 | 문 앞 분리수거 서비스" />
+    <!-- 소셜 미디어에서 페이지가 공유될때 사용되는 제목 -->
+    <meta property="og:title" content="오늘수거 | 문 앞 분리수거 서비스" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 사이트 이름 -->
+    <meta property="og:site_name" content="오늘수거 | 문 앞 분리수거 서비스" />
+    <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
+    <meta property="og:type" content="website" />
+    <!-- Open Graph 프로토콜에서 사용되는 메타 태그의 속성 중 하나로, 
+     페이지의 간략한 설명을 제공하는 데 사용 -->
+    <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
+    <meta property="og:url" content="https://onelsugeo.vercel.app/" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
+    <meta
+      property="og:image"
+      content="https://onelsugeo.vercel.app/images/logo.png"
+    />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
+    <meta property="og:description" content="박주희 포트폴리오 입니다." />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="nav" role="navigation" aria-label="메인 내비게이션">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo" aria-label="오늘수거 홈">
+          <img src="images/logo.png" alt="로고" />
+        </a>
+        <div class="nav__links">
+          <a href="#services" class="nav__link" id="nav-service-link"
+            >서비스 지역</a
+          >
+          <a href="#app" class="nav__download-btn" id="nav-app-btn"
+            >앱 다운로드</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-top">
+      <div class="hero-top__inner">
+        <div class="hero-bg">오늘수거</div>
+
+        <h1 class="hero-title">
+          쓰레기는 문 앞에,<br />
+          분리수거는 <span>오늘수거</span>가 할게요
+        </h1>
+
+        <div class="hero-visual">
+          <img src="images/burger.png" class="trash-item burger" />
+          <img src="images/box.png" class="trash-item box" />
+          <img src="images/container.png" class="trash-item noodle" />
+          <img src="images/trash.png" class="trash-item bag" />
+          <img src="images/bottle.png" class="trash-item bottle" />
+          <img src="images/cheese.png" class="trash-item cheese" />
+        </div>
+        <img src="images/trashcan.png" class="hero-bin" />
+      </div>
+    </section>
+
+    <section class="hero-bottom">
+      <div class="hero-bottom__inner">
+        <h2>귀찮은 분리배출 없이 신청 한 번으로 해결하세요.</h2>
+
+        <a href="#" class="hero-btn"> 서비스 문의하기 </a>
+      </div>
+    </section>
+
+    <section class="problem">
+      <h2>
+        쓰레기 버릴 때<br />
+        이런 고민 한 적 있으시죠?
+      </h2>
+
+      <div class="problem-wave">
+        <div class="problem-grid">
+          <div class="problem-box">
+            <img src="images/confuse.png" alt="" />
+            <p>정해져있는 요일</p>
+          </div>
+
+          <div class="problem-box">
+            <img src="images/resi_bin.png" alt="" />
+            <p>애매한 배출규정</p>
+          </div>
+
+          <div class="problem-box">
+            <img src="images/wondering.png" alt="" />
+            <p>귀찮고 번거리는<br />분리배출</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="items">
+      <div class="container">
+        <h2 class="items-title">
+          이런것도 <span>다</span> 버릴 수 있어요
+          <img src="images/imp.png" alt="느낌표" />
+        </h2>
+
+        <div class="items-grid">
+          <div class="item-card">
+            <img src="images/clothes.png" alt="" />
+            <p>헌옷, 이불 등 침구류</p>
+          </div>
+
+          <div class="item-card">
+            <img src="images/spoon.png" alt="" />
+            <p>주방용품, 생활용품</p>
+          </div>
+
+          <div class="item-card">
+            <img src="images/cosmatic.png" alt="" />
+            <p>내용물이 남은 샴푸,<br />화장품류</p>
+          </div>
+
+          <div class="item-card">
+            <img src="images/leftover.png" alt="" />
+            <p>잔반이 남은 음식물,<br />배달쓰레기</p>
+          </div>
+
+          <div class="item-card">
+            <img src="images/bottles.png" alt="" />
+            <p>플라스틱, 비닐 등의<br />재활용품</p>
+          </div>
+
+          <div class="item-card">
+            <img src="images/books.png" alt="" />
+            <p>책, 종이박스 등<br />종이류</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how inner">
+      <div class="how-wave"></div>
+      <h2 class="how-title">오늘 <span>수거</span>로 한번에 해결하세요!</h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <img src="images/trashmix.png" alt="수거비닐에 쓰레기 담기" />
+          <div class="how-step-num">01</div>
+          <p>수거비닐에<br />쓰레기를 모두 담고</p>
+        </div>
+        <div class="how-step">
+          <img src="images/hand.png" alt="앱으로 수거 신청" />
+          <div class="how-step-num">02</div>
+          <p>앱으로 수거 신청 후</p>
+        </div>
+        <div class="how-step">
+          <img src="images/takeout.png" alt="문 앞에 내놓기" />
+          <div class="how-step-num">03</div>
+          <p>문 앞에 내놓으면 끝!</p>
+        </div>
+      </div>
+    </section>
+    <section class="servce inner">
+      <div class="servce-title">
+        <h1>다양한 서비스를 제공합니다</h1>
+        <p>
+          가정의 편안함부터 빌딩의 스마트한 관리까지<br />전문적인 맞춤형
+          서비스를 제공해요
+        </p>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">
+            <img src="images/home.png" alt="집" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/office.png" alt="사무실" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/billding.png" alt="건물" />
+          </a>
+        </li>
+      </ul>
+
+      <a href="#" class="hero-btn">서비스 문의하기</a>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-tagline">분리배출 없는 일상,<br />오늘수거 시작하기</p>
+
+      <div class="footer-sns">
+        <a href="#" aria-label="유튜브">
+          <img src="images/sns_youtube.png" alt="" />
+        </a>
+        <a href="#" aria-label="인스타그램">
+          <img src="images/sns_insta.png" alt="" />
+        </a>
+        <a href="#" aria-label="페이스북">
+          <img src="images/sns_facebook.png" alt="" />
+        </a>
+      </div>
+
+      <div class="footer-info">
+        <p><b>주식회사 어글리앱</b> | 대표자 서호성</p>
+        <p>
+          <b>사업자등록번호</b> 524-86-02323 |
+          <b>통신판매업 신고번호</b> 2026-인천서구-3448
+        </p>
+        <p><b>주소</b> 인천광역시 서구 정서진로 410, 2층 D219호</p>
+        <p><b>전화</b> 02-6951-0838</p>
+        <p>
+          <b>협업 및 제휴 문의</b>
+          <a href="mailto:info@uglee.io">info@uglee.io</a>
+          &nbsp;|&nbsp;
+          <b>정기수거 문의</b>
+          <a href="mailto:partners@uglee.io">partners@uglee.io</a>
+        </p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
